@@ -1,0 +1,95 @@
+Work hard
+& Be nice to people
+Front-End Developer
+
+NAME			코딩웍스
+PHONE		010-1234-5678
+EMAIL			wannabenotsick@codingworks.com
+LOCATION	Seoul in Korea
+SOCHIAL	
+
+contact me
+download resume
+---------------------------------------------------------------
+Skills
+저의 다양한 스킬을 통해 멋진 프로젝트를 만들고 또한 열정을 갖고 있는 사람들과 함께 하면서 더욱 멋진 프로젝트 완성을 위한 영감을 받습니다.
+
+Frontend Development
+HTML, CSS, LESS, SASS, Tailwind CSS, Bootstrap, Wordpress, Drupal, Phonegap / Cordova, Ionic, Foundation, Angular.js.
+
+Web Development
+Javascript, Coffeescript, JAVA, Python, PHP, Go, Node.js, MongoDB, Redis, PostgreSQL, WebStorm. 
+
+UI\UX Design
+Photoshop, Illustrator, Figma, Sketch, Axure, XMind, Prototyping, Wireframing, User Research, Usability Testing.
+
+Consulting & SEO Audit
+Screaming Frog, Woorank, Raventools, Semrush, Moz, WebCEO, Google Analytics, ChartBeat, CrazyEgg.
+---------------------------------------------------------------
+Experience
+저는 스타트업, 조직, Fortune 500대 기업과 협력하여 고객이 어려움을 극복하고 매일 수백만 명의 사람들과 지속적인 관계를 형성하는 데 도움이 되는 디지털 제품을 구축합니다.
+
+Web Developer @Future Studio
+April, 2021 - Present
+사용자 클릭 수를 늘리고 그에 따른 고객 구매를 20% 증가시키는 최적화된 체크아웃 페이지를 포함하여 사용자 친화적인 웹사이트를 설계 및 개발했습니다.
+
+Frontend Developer @Fast Agency
+Feb, 2017 - Dec, 2018
+다양한 개발 프로젝트에서 소규모 팀이지만 추진력 있게 팀웍을 진행했으며 이 팀을 이끌고 고객의 요구 사항을 충족하거나 초과하는 솔루션을 제공했습니다.
+
+IT Specialist @Animation Studio
+Sep, 2016 - Jan, 2017
+웹 애플리케이션 보안 애플리케이션을 개선하여 해커 공격을 2.3%에서 0.02%로 최소화합니다. 해당프로젝트를통 해서 개인 역량도 많이 향상되었고 특히 팀웍의중 요성을 다시 한번 느끼는 계기가 되었습니다.
+---------------------------------------------------------------
+Education
+평생 동안 저는 교육이 중요하다는 강한 믿음을 갖고 살아왔습니다. 나는 매일 새로운 것을 배우려고 노력합니다.
+
+CodingWorks Developer Training  @CodingWorks Web Studio
+Mar, 2015 - Nov, 2016
+CodingWorks Web Studio에서 공부하면서 Google의 Platform as a Service인 App Engine을 사용하여 사용자 기반이 증가할 뿐만 아니라 수요가 급증할 때 확장되는 웹 앱용 백엔드를 구축하는 방법을 알게 되었습니다.
+
+Software Development  @Byeollae University
+Jan, 2016 - Oct, 2016
+- 소프트웨어 개발 학사(우등). 뛰어난 학업 성취상. 
+- 제10회 소프트웨어 개발보안 경진대회, 본선 수상
+---------------------------------------------------------------
+Front-End Projects
+
+밀키트 쇼핑몰 앱 - Today’s Meal kit
+2022년 6월
+
+습관 추적기 - Habit Tracking App
+2021년 6월
+
+전자 지갑 웹 앱 - Wallet Cryptocurrency
+2021년 12월
+
+스마트 홈 어플리케이션 “Smart Home”
+2020년 6월
+
+모바일 웹 앱 UI 디자인 - My Free Time
+2020년 12월
+
+클라우드 펀드 앱 - Crowdfunding App
+2019년 6월
+
+반응형 웹 - Instant Showcase
+2019년 12월
+
+하이브리드 웹 제작 - 수제 모자 쇼핑
+2018년 6월
+
+---------------------------------------------------------------
+Feedback
+지난 프로젝트들에서 함께한 팀원들, CEO, 고객의 리뷰를 통해서 저의 진정성과 실력 그리고 인성을 보여드리고 싶습니다.  
+
+Jeremy Foley  President @Future Studio
+"문제를 도전으로 여기고 창의적이면서도 적절한 해결책을 찾는 것을 즐깁니다. CodingWorks는 스스로 해결책을 찾을 수 있지만 그룹과 협력하여 문제를 해결하는 것도 잘합니다. 대부분의 업무를 잘 수행하고 작업 결과를 확인하는 습관이 있습니다. CodingWorks는 일부 영역에서는 우수성을 달성했지만 다른 영역에서는 아직 최고 수준을 달성하지 못했습니다."
+
+Lonnie Pearson  Project Manager @Animation Studio
+“그는 직무 설명에 없는 작업을 수행하거나 예기치 않게 추가 작업을 수행해야 하는 경우에도 항상 필요한 작업을 수행하려고 노력할 것입니다. 그러나 때로는 추가 부하에 대해 불평할 수도 있습니다. 조직 내 최고 자리를 목표로 하고 있습니다. 그는 매우 높은 기준을 설정하고 이것이 관심과 홍보를 가져올 것임을 알고 있습니다.  실력과 인성을 겸비한 인재입니다.”
+
+Victoria F Calhoun  Developer @Fast Agency
+“확고하지만 현실적인 마감일에 맞춰 작업할 때 CodingWorks는 항상 높은 기준에 따라 작업을 완료합니다. 시간의 압박을 받는 상황에서도 주의와 정확성은 분명합니다. 마감일을 맞추는 데 필요한 추가 시간을 모두 일할 준비가 되어 있습니다. 아주 홎은 팀메이트이면서 친구이기도 했습니다. 코딩웍스와 일한 시간은 정말 즐거운 시간이었다고 기억됩니다.”
+---------------------------------------------------------------
+Copyright 2024 CodingWorks

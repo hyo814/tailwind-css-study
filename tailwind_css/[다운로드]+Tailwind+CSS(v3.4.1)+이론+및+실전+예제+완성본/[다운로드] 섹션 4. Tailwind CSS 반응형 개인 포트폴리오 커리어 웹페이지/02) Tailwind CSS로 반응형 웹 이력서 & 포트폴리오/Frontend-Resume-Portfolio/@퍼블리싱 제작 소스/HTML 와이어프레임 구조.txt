@@ -1,0 +1,119 @@
+div
+	section.intro
+		div
+			div
+				h2
+				h1
+					div
+						ul
+							li > b, span
+							li > b, span
+							li > b, span
+							li > b, span
+							li > b
+								span > (a > font-icon)*3
+						div
+							button*2		
+			div
+				img
+	
+	section.skills
+		div
+			div
+				div
+					h2
+					p
+			div
+				div
+					div
+						h4
+						p
+					div
+						h4
+						p
+				div
+					div
+						h4
+						p
+					div
+						h4
+						p
+	
+	section.experience
+		div
+			div
+				div
+					h2
+					p
+			div
+				div
+					h4 > em
+					span
+					p
+				div
+					h4 > em
+					span
+					p
+				div
+					h4 > em
+					span
+					p
+				
+	
+	section.education
+		div
+			div
+				div
+					h2
+					p
+			div
+				div
+					h4 > em
+					span
+					p
+				div
+					h4 > em
+					span
+					p
+	
+	section.frontend-projects
+		div
+			h2
+			div
+				div
+					div
+						img
+					div
+						h5
+						span
+	
+	section.feedback
+		div
+			div
+				div
+					h2
+					p
+			div
+				div
+					div
+						img
+					div
+						h4 > em
+						p > q
+				div
+					div
+						img
+					div
+						h4 > em
+						p > q
+				div
+					div
+						img
+					div
+						h4 > em
+						p > q
+	
+	footer
+		p
+		
+		

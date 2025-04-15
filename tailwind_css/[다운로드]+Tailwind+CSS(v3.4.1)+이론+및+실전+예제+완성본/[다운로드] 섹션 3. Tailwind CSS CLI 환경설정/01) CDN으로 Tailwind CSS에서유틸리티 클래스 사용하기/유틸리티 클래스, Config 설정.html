@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>CDN으로 Tailwind CSS 유틸리티 클래스</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Tailwind Config -->
+  <script src="script/tailwind-custom.js"></script>
+  <!-- CDN Utility Class -->
+  <style type="text/tailwindcss">
+    @layer utilities {
+      .shadow-box {
+        @apply border-2 border-gray-200 shadow-lg rounded-3xl p-5 text-center text-xl;
+      }
+      .centering {
+        @apply flex justify-center items-center;
+      }
+    }
+  </style>
+</head>
+<body class="m-10">
+
+  <!-- CDN & CLI에서 Config 활용하기 -->
+  <div class="my-3">모든 사람은 의견의 자유와 표현의 자유에 대한 권리를 가진다.</div>
+  <div class="my-3 font-montserrat">모든 사람은 의견의 자유와 표현의 자유에 대한 권리를 가진다.</div>
+  <div class="my-3 font-nanumpen">모든 사람은 의견의 자유와 표현의 자유에 대한 권리를 가진다.</div>
+  <!-- ------------------------------- -->
+  <div class="my-3 font-pretendard">모든 사람은 의견의 자유와 표현의 자유에 대한 권리를 가진다.</div>
+  <div class="my-3 font-yclover">모든 사람은 의견의 자유와 표현의 자유에 대한 권리를 가진다.</div>
+
+  <!-- ######################################################### -->
+
+  <hr class="my-10">
+
+  <!-- CDN에서 유틸리티 클래스 활용하기 -->
+
+  <div class="my-3 text-mypurple">Lorem ipsum dolor sit amet.</div>
+  <div class="my-3 bg-myred">Lorem ipsum dolor sit amet.</div>
+  <div class="my-3 bg-mypurple text-myred">Lorem ipsum dolor sit amet.</div>
+  <div class="my-3 border-4 border-mypurple">Lorem ipsum dolor sit amet.</div>
+
+  <hr class="my-10">
+
+  <div>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique eaque repudiandae ipsam culpa, quae corporis, mollitia, doloribus blanditiis obcaecati temporibus accusamus veniam? A, recusandae sint. Dignissimos cupiditate <span class="text-mygold">iusto perspiciatis et!</span>
+  </div>
+
+  <hr class="my-10">
+  <div class="text-mygreen-400">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique eaque repudiandae ipsam culpa, quae corporis, mollitia, doloribus blanditiis obcaecati temporibus accusamus veniam? A, recusandae sint. Dignissimos cupiditate
+  </div>
+
+  <hr class="my-10">
+
+  <div class="shadow-box">
+    Tailwind CSS works by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file.
+  </div>
+  <hr class="my-10">
+  <div class="shadow-box">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur facilis cupiditate quaerat corrupti, quis perspiciatis praesentium animi unde neque autem quod maxime nulla doloribus nesciunt esse, magnam saepe nisi reprehenderit.
+  </div>
+  <hr class="my-10">
+  <div class="shadow-box !text-base">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur facilis cupiditate quaerat corrupti, quis perspiciatis praesentium animi unde neque autem quod maxime nulla doloribus nesciunt esse, magnam saepe nisi reprehenderit.
+  </div>
+  <hr class="my-10">
+  <div class="border-4 border-black size-[400px] centering">
+    <div class="size-[100px] bg-pink-500"></div>
+  </div>
+
+  <hr class="my-10">
+
+  <div class="bg-bg_main text-text_main">
+    Tailwind CSS works by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file.
+  </div>
+
+  <hr class="my-10">
+
+  <div class="shadow-box text-text_main !border-4 !border-bg_main">
+    Tailwind CSS works by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file.
+  </div>
+  
+</body>
+</html>

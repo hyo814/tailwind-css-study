@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dark Mode with SVG</title>
+  <link rel="icon" href="images/favicon-tailwindcss.png">
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- tailwind config Import -->
+  <script src="script/tailwind.config.js"></script>
+  <!-- Custom CSS -->
+  <link href="css/style.css" rel="stylesheet">
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body class="h-screen flex justify-center items-center bg-gray-100 dark:bg-gray-950 transition-all duration-300 [&>*]:transition-all [&>*]:duration-300">
+
+  <div class="max-w-[400px] shadow-lg rounded-xl bg-white p-6 dark:bg-slate-700 relative">
+    <button class="dark-toggle absolute right-5 top-5 text-xl text-black"><i class="bi bi-moon-stars-fill"></i></button>
+    <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-box2-heart fill-green-500 w-10 dark:fill-white" viewBox="0 0 16 16">
+      <path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982"/>
+      <path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4zm0 1H7.5v3h-6zM8.5 4V1h3.75l2.25 3zM15 5v10H1V5z"/>
+    </svg>
+    <h5 class="text-xl font-semibold my-3 text-neutral-800 dark:text-white">Tailwind CSS Dark Mode</h5>
+    <p class="mb-4 text-neutral-500 dark:text-neutral-400">
+      Now that dark mode is a first-class feature of many operating systems, it’s becoming more and more common to design a dark version of your website to go along with the default design.
+    </p>
+    <p class="text-cyan-500 dark:text-cyan-600">
+      <q><em>It’s becoming more and more common to design a dark version of your website to go along with the default design.</em></q>
+    </p>
+  </div>
+
+  <script>
+    $('.dark-toggle').click(function(){
+      $('html').toggleClass('dark');
+      $(this).children('i').toggleClass('bi-moon-stars-fill bi-brightness-high-fill');
+      $(this).toggleClass('text-black text-white');
+    });
+  </script>
+
+</body>
+</html>

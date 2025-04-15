@@ -1,0 +1,116 @@
+Company Member Information
+
+No.	Full name				Age		Job title				Location
+6		Vincent Willamson	31			iOS Developer		Washington
+5		Tyler Reyes			22			UI/UX Designer		New York
+4		Keith Carter			20			Graphic Designer		San Fransisco
+3		James Kim			33			iOS Developer		Washington
+2		Cindy Lee				25			UI/UX Designer		New York
+1		Sally Jung				27			Web Publisher		Miami
+-----------------------------------------------------------------------------------------------------
+<table>
+  <caption>Company Member Information</caption>
+  <tr>
+    <th>No.</th>
+    <th>Full name</th>
+    <th>Age</th>
+    <th>Job title</th>
+    <th>Location</th>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Vincent Willamson</td>
+    <td>31</td>
+    <td>iOS Developer</td>
+    <td>Washington</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Tyler Reyes</td>
+    <td>22</td>
+    <td>UI/UX Designer</td>
+    <td>New York</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Keith Carter</td>
+    <td>20</td>
+    <td>Graphic Designer</td>
+    <td>San Fransisco</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>James Kim</td>
+    <td>33</td>
+    <td>iOS Developer</td>
+    <td>Washington</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Cindy Lee</td>
+    <td>25</td>
+    <td>UI/UX Designer</td>
+    <td>New York</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Sally Jung</td>
+    <td>27</td>
+    <td>Web Publisher</td>
+    <td>Miami</td>
+  </tr>
+</table>
+
+-----------------------------------------------------------------------------------------------------
+
+<div>
+  <div>
+    <div>No.</div>
+    <div>Full name</div>
+    <div>Age</div>
+    <div>Job title</div>
+    <div>Location</div>
+  </div>
+  <div>
+    <div>6</div>
+    <div>Vincent Willamson</div>
+    <div>31</div>
+    <div>iOS Developer</div>
+    <div>Washington</div>
+  </div>
+  <div>
+    <div>5</div>
+    <div>Tyler Reyes</div>
+    <div>22</div>
+    <div>UI/UX Designer</div>
+    <div>New York</div>
+  </div>
+  <div>
+    <div>4</div>
+    <div>Keidiv Carter</div>
+    <div>20</div>
+    <div>Graphic Designer</div>
+    <div>San Fransisco</div>
+  </div>
+  <div>
+    <div>3</div>
+    <div>James Kim</div>
+    <div>33</div>
+    <div>iOS Developer</div>
+    <div>Washington</div>
+  </div>
+  <div>
+    <div>2</div>
+    <div>Cindy Lee</div>
+    <div>25</div>
+    <div>UI/UX Designer</div>
+    <div>New York</div>
+  </div>
+  <div>
+    <div>1</div>
+    <div>Sally Jung</div>
+    <div>27</div>
+    <div>Web Publisher</div>
+    <div>Miami</div>
+  </div>
+</div>

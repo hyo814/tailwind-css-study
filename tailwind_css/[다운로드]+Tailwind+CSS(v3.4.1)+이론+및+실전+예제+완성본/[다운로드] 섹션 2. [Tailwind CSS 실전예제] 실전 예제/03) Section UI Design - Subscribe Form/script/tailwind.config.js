@@ -1,0 +1,12 @@
+tailwind.config = {
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ["Noto Sans KR", "Arial", "sans-serif"], 
+        notosans: ['Noto Sans KR', 'sans-serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
+        pretendard : ['Pretendard-Regular']
+      }
+    }
+  }
+}

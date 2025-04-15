@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card UI Design - Real State Price</title>
+  <link rel="icon" href="images/favicon-tailwindcss.png">
+  <!-- Remix Icons CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- tailwind config Import -->
+  <script src="script/tailwind.config.js"></script>
+  <!-- Custom CSS -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body class="bg-slate-200 h-screen text-[#333] flex justify-center items-center font-montserrat">
+
+  <div class="w-[360px] rounded-xl overflow-hidden shadow-xl bg-white group">
+    <div class="h-[200px] relative overflow-hidden">
+      <img class="object-cover w-full h-full group-hover:scale-110 transition-all duration-[600ms]" src="images/house-thum-01.jpg" alt="house thum">
+      <span class="text-white absolute right-[20px] top-[10px] text-[25px] cursor-pointer"><i class="ri-heart-3-line"></i></span>
+    </div>
+    <div class="min-h-[300px]">
+      <div class="p-4">
+        <b class="text-[14px]">Condominium • 2yrs old</b>
+        <h3 class="text-3xl my-1 text-pink-600">$570,000</h3>
+        <span>with evergreen terrace</span>
+      </div>
+      <div class="flex gap-6 text-[20px] border-y-[1px] p-4">
+        <div class="flex items-center">
+          <span><i class="ri-hotel-bed-line"></i></span>
+          <span class="text-[16px]"><b class="mx-2">4</b>Bedrooms</span>
+        </div>
+        <div class="flex items-center">
+          <span><i class="ri-showers-line"></i></span>
+          <span class="text-[16px]"><b class="mx-2">3</b>Bathrooms</span>
+        </div>
+      </div>
+      <div class="p-4">
+        <span class="font-semibold text-[13px] text-gray-500 capitalize">real estate agent</span>
+        <div class="flex gap-3 mt-2">
+          <img class="w-[40px] rounded-full border" src="images/face-01.jpg" alt="agency face">
+          <div class="text-[14px]">
+            <b class="block">Sandy Foxx</b>
+            <span>(02) 7777-7777</span>
+          </div>
+          <button class="uppercase bg-green-400 text-white font-medium rounded-md px-5 ml-auto hover:bg-green-500">inquire</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

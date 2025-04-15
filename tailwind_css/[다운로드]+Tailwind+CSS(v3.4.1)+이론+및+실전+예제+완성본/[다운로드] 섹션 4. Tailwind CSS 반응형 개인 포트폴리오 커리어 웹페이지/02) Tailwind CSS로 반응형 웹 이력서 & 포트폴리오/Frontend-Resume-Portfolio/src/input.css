@@ -1,0 +1,67 @@
+/* Google Web Font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Bootstrap Icons */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 기본(Base) 스타일 설정 */
+@layer base {
+  body {
+    @apply font-notosans text-[16px] font-[400] text-darkblack leading-[1.6em];
+  }
+  h1 {
+    @apply text-[2rem] font-semibold my-5;
+  }
+  h2 {
+    @apply text-[1.5rem] font-semibold my-5;
+  }
+  h3 {
+    @apply text-[1.17rem] font-semibold my-5;
+  }
+}
+
+/* 자주 사용하는 컴포넌트 클래스 설정(스타일 적용시 @apply) */
+@layer components {
+  .content-area {
+    @apply max-w-[1280px] mx-auto p-4 py-10;
+  }
+
+  .section-title > h2 {
+    @apply font-raleway text-[38px] text-deepgreen font-semibold;
+  }
+  .section-title > h2 {
+    @apply after:content-[''] after:inline-block after:size-[10px] after:rounded-sm after:bg-deeporange/80 after:ml-1;
+  }
+  .section-title > p {
+    @apply text-silverblack;
+  }
+
+  .at-title > h4 {
+    @apply text-[20px] font-bold my-2;
+  }
+  .at-title > h4 > em {
+    @apply text-base not-italic font-normal text-silverblack ml-2;
+  }
+  .at-title > span {
+    @apply text-silverblack;
+  }
+  .at-title > p {
+    @apply text-silverblack my-5;
+  }
+
+  .project-desc > div > img {
+    @apply border;
+  }
+  .project-desc > div > h5 {
+    @apply font-semibold mt-3 text-[15px];
+  }
+  .project-desc > div > span {
+    @apply text-silverblack  text-[15px];
+  }
+}

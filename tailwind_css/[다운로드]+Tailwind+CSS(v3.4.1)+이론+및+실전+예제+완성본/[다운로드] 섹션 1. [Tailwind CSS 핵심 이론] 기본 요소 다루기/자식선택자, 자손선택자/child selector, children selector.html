@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Tailwind CSS CDN</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="m-20">
+
+  <div>
+    <p class="border border-black border-solid p-1 m-1">Text Content</p>
+    <p class="border border-black border-solid p-1 m-1">Text Content</p>
+    <p class="border border-black border-solid p-1 m-1">Text Content</p>
+    <p class="border border-black border-solid p-1 m-1">Text Content</p>
+  </div>
+  <hr class="my-10">
+  <div class="[&>p]:border [&>p]:border-black [&>p]:border-solid [&>p]:p-1 [&>p]:m-1">
+    <p>Text Content</p>
+    <p>Text Content</p>
+    <p>Text Content</p>
+    <p>Text Content</p>
+  </div>
+
+  <hr class="my-10">
+  
+  <ul class="[&>li]:border [&>li]:p-1 [&>li]:my-1 [&>li:hover]:bg-red-500 [&>li:hover]:text-white">
+    <li>Home</li>
+    <li>About</li>
+    <li>Projects</li>
+    <li>Contact</li>
+  </ul>
+  
+  <hr class="my-10">
+  
+  <div class="[&>div>p]:border [&>div>p]:border-green-500 [&>div>p]:p-1 [&>div>p]:my-1 [&>div>p:hover]:bg-red-500 [&>div>p:hover]:text-white [&>div]:border-4 [&>div]:p-5">
+    <div class="border-4 p-5">
+      <p>Children Elements</p>
+      <p>Children Elements</p>
+      <p>Children Elements</p>
+    </div>
+  </div>
+  
+  <hr class="my-10">
+
+  <div>
+    <div class="border-4 p-5 [&>p]:border [&>p]:border-green-500 [&>p]:p-1 [&>p]:my-1 [&>p:hover]:bg-red-500 [&>p:hover]:text-white">
+      <p>Children Elements</p>
+      <p>Children Elements</p>
+      <p>Children Elements</p>
+    </div>
+  </div>
+  
+  <hr class="my-10">
+  
+  <ul class="[&>li]:m-1 [&>li]:p-1 [&>li:nth-child(even)]:bg-gray-500 [&>li:nth-child(even)]:text-white [&>li:last-child]:text-red-500">
+    <li>Item 01</li>
+    <li>Item 02</li>
+    <li>Item 03</li>
+    <li>Item 04</li>
+    <li>Item 01</li>
+  </ul>
+  
+  <hr class="my-10">
+
+  <div class="[&>div:first-child]:text-red-500 [&>div:last-child]:text-blue-500">
+    <div>
+      <span>Span Text</span>
+      <span>Span Text</span>
+      <span>Span Text</span>
+    </div>
+    <div> 
+      <span>Span Text</span>
+      <span>Span Text</span>
+      <span>Span Text</span>
+    </div>
+    <div> 
+      <span>Span Text</span>
+      <span>Span Text</span>
+      <span>Span Text</span>
+    </div>
+  </div>
+
+</body>
+</html>
