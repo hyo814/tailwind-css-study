@@ -182,13 +182,20 @@ Flexbox는 "부모 요소에 display: flex를 선언"하고, 자식 요소의 **
 
 **기본 방향은 가로(row)**이고, 반응형 구현에도 가장 많이 쓰임.
 
+### 🔹 실무에서 자주 사용하는 Flex 용도
+- `flex` : 자식 요소의 성장(shrink/grow) 비율 한 번에 설정
+- `flex-direction` : 주축 방향 설정 (기본 가로)
+- `flex-wrap` : 넘치는 자식 요소 줄바꿈
+- `justify-content` : 주축 정렬 (가로 정렬)
+- `align-items` : 교차축 정렬 (세로 정렬)
+- `gap` : 자식 요소 간 간격
+
 ```html
 <div class="flex justify-between items-center p-4 bg-gray-100">
   <div class="w-1/4">왼쪽</div>
   <div class="w-1/2 text-center">중앙</div>
   <div class="w-1/4 text-right">오른쪽</div>
 </div>
-
 ```
 
 | 속성 | 설명 |
@@ -205,7 +212,15 @@ Flexbox는 "부모 요소에 display: flex를 선언"하고, 자식 요소의 **
 
 Grid는 "2차원 배치"가 가능.
 
-Flex는 한 방향(가로 or 세로)이지만, Grid는 **행과 열을 동시에 정의** 해서**복잡한 레이아웃도 간단하게 구현.**
+Flex는 한 방향(가로 or 세로)이지만, Grid는 **행과 열을 동시에 정의** 해서 **복잡한 레이아웃도 간단하게 구현.**
+
+### 🔹 실무에서 자주 사용하는 Grid 용도
+- `grid-template-columns` (`grid-cols-*`) : 열 구조 정의
+- `grid-template-rows` : 행 구조 정의
+- `gap` : 셀 간 간격
+- `grid-column`, `col-span-*` : 열 병합
+- `grid-row`, `row-span-*` : 행 병합
+- `grid-auto-flow` : 자동 배치 방향 지정
 
 ```html
 <div class="grid grid-cols-3 gap-4 p-4">
@@ -213,7 +228,6 @@ Flex는 한 방향(가로 or 세로)이지만, Grid는 **행과 열을 동시에
   <div class="bg-yellow-200">1칸</div>
   <div class="col-span-3 bg-green-200">전체 너비</div>
 </div>
-
 ```
 
 | 속성 | 설명 |
@@ -286,7 +300,7 @@ Tailwind는 기본적으로 `CSS selector`를 지원하지 않지만, **[&] 문�
 
 ---
 
-## `@apply` 예제 — 반복 스타일 재사용
+## 17. `@apply` 예제 — 반복 스타일 재사용
 
 ### 상황
 
@@ -323,7 +337,7 @@ Tailwind는 기본적으로 `CSS selector`를 지원하지 않지만, **[&] 문�
 
 ---
 
-## `tailwind.config.js` 커스터마이징
+## 18. `tailwind.config.js` 커스터마이징
 
 ### 상황
 
@@ -365,3 +379,89 @@ module.exports = {
 <div className="bg-gray-soft p-6 w-96">커스텀 spacing 사용</div>
 
 ```
+
+
+## 19. Position 유틸리티 심화
+
+```html
+<div class="sticky top-0 bg-white z-50">스크롤 시 고정되는 헤더</div>
+<div class="fixed bottom-4 right-4">고정된 플로팅 버튼</div>
+```
+
+| 속성 | 설명 |
+| --- | --- |
+| `sticky`, `fixed` | 스크롤 위치에 따른 고정 |
+| `inset-0`, `top-1/2`, `right-[10px]` | 위치 제어 |
+
+---
+
+## 20. 모션 / 트랜지션 / 애니메이션
+
+```html
+<div class="transition-all duration-300 ease-in-out hover:scale-105">
+  부드러운 호버 효과
+</div>
+```
+
+| 속성 | 설명 |
+| --- | --- |
+| `transition-*`, `duration-*` | 전환 효과 |
+| `ease-in`, `ease-out`, `ease-in-out` | 가속도 설정 |
+| `animate-bounce`, `animate-spin` | 기본 애니메이션 클래스 |
+
+---
+
+## 21. 숨김 처리와 접근성
+
+```html
+<span class="sr-only">스크린 리더 전용 텍스트</span>
+<div class="hidden md:block">모바일에선 숨김</div>
+```
+
+| 속성 | 설명 |
+| --- | --- |
+| `hidden` | 요소 감춤 |
+| `sr-only` | 시각적으로 숨기고 스크린 리더에만 보임 |
+| `aria-*`, `role` | 접근성 속성 |
+
+---
+
+### 22. 다크모드 처리
+
+```html
+<div class="bg-white text-black dark:bg-black dark:text-white">
+  라이트/다크 모드에 따라 바뀌는 배경
+</div>
+```
+
+| 속성 | 설명 |
+| --- | --- |
+| `dark:` | 다크 모드 대응 클래스 |
+| 설정 방식 | `media` / `class` / `selector` 등 tailwind.config 설정 필요 |
+
+---
+
+### 23. 콘테이너 클래스
+
+```html
+<div class="container mx-auto px-4">가운데 정렬된 박스</div>
+```
+
+| 속성 | 설명 |
+| --- | --- |
+| `container` | 반응형 max-width 자동 설정 |
+| `mx-auto`, `px-*` | 가운데 정렬, 내부 여백 설정 |
+
+---
+
+### 24. 유틸리티 우선 순위 제어 (!important)
+
+```html
+<div class="!text-red-500">강제로 스타일 우선 적용</div>
+```
+
+| 속성 | 설명 |
+| --- | --- |
+| `!` 접두사 | 우선순위를 강제로 올림 (Tailwind 내부 !important 처리) |
+
+---
