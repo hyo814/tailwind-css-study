@@ -379,7 +379,7 @@ module.exports = {
 <div className="bg-gray-soft p-6 w-96">커스텀 spacing 사용</div>
 
 ```
-
+---
 
 ## 19. Position 유틸리티 심화
 
@@ -463,5 +463,3 @@ module.exports = {
 | 속성 | 설명 |
 | --- | --- |
 | `!` 접두사 | 우선순위를 강제로 올림 (Tailwind 내부 !important 처리) |
-
----
